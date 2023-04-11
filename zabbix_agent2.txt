@@ -77,7 +77,7 @@ LogFileSize=0
 # Default:
 # Server=
 
-Server=192.168.4.15
+Server=192.168.4.15 # A adapter l'adresse IP par rapport à votre serveur ZABBIX
 
 ### Option: ListenPort
 #	Agent will listen on this port for connections from the server.
@@ -141,7 +141,7 @@ Server=192.168.4.15
 # Default:
 # Hostname=
 
-Hostname=Zabbixagent
+Hostname=Zabbixagent #A modifier le nom par rapport au serveur, avant d'activier le playbook ou apres
 
 ### Option: HostnameItem
 #	Item used for generating Hostname if it is undefined. Ignored if Hostname is defined.
