@@ -31,7 +31,7 @@
 
   - name: copier le fichier de conf
     template:
-      src: /etc/ansible/file/zabbix_agent2.conf
+      src: /etc/ansible/file/zabbix_agent2.conf #(Supprimer le commentaire en cas de problème) Cette ligne est à adapter, c'est le fichier de configuration
       dest: /etc/zabbix/zabbix_agent2.conf
 
   - name: Redémarrer le service
